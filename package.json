@@ -1,11 +1,14 @@
 {
-  "name": "eslint",
+  "name": "linting_demo",
   "version": "1.0.0",
   "description": "ESlint tutorial",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint ./"
   },
   "author": "Nikhil",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^4.17.0"
+  }
 }
